@@ -1,20 +1,36 @@
-.AppleDouble
-*.pyc
-:2e_*
-*.tmproj
-.*.swp
-build
-dist
-MANIFEST
-docs/_build/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
 *.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
 .coverage
-coverage/
-tests/static/
-tests/assets/js/dummy.js
-.tox/
-.DS_Store
-.idea
-.venv
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
 .project
 .pydevproject
